@@ -61,4 +61,7 @@ def run(course):
 
 
 run("CAP 6614-0001") # Change this to whatever course you want to check
+# example output: 
+# #1 Checking CAP 6614-0001...
+# Status of CAP 6614-0001: Closed
 
