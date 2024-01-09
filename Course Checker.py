@@ -44,9 +44,9 @@ class Course:
         return self.status
 
 def run(course):
-    sleep_time = 300
-    discord_webhook_url = "" # Enter your discord webhook url here
-    discord = Discord(url= discord_webhook_url) # Create a discord webhook and enter the url here > follow this tutorial > https://10mohi6.medium.com/super-easy-python-discord-notifications-api-and-webhook-9c2d85ffced9
+    sleep_time = 300 # Change this to however long you want to wait between each check (in seconds)
+    discord_webhook_url = "" # Create a discord webhook and enter the url here > follow this tutorial > https://10mohi6.medium.com/super-easy-python-discord-notifications-api-and-webhook-9c2d85ffced9
+    discord = Discord(url= discord_webhook_url)     
     i = 1
     while True:
         print(f"#{i} Checking {course}...")
