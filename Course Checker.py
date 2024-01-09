@@ -1,3 +1,5 @@
+# Disclaimer: This is for educational purposes only. I am not responsible for any misuse or damage caused by this script. Use at your own risk.
+
 import time
 import requests
 from bs4 import BeautifulSoup # run 'pip install beautifulsoup4' in terminal to install
